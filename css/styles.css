@@ -56,13 +56,13 @@ a{
 }
 header{
    border-bottom: 1px solid var(--border-bottom);
-   padding: 18px 0;
+   padding: 24px 0;
 }
-.header_block{
-   display: inline-block;
+.head_wrapp{
+   display: flex;
+   justify-content: space-between;
 }
 .header_block:last-child{
-   float: right;
    margin-top: 8px;
 }
 .header_block a,
@@ -133,15 +133,18 @@ button:focus{
    display: inline-block;
    margin-right: 25px;
 }
+.block_benefits .text_h3{text-transform: uppercase;}
 .block_benefits:last-child{margin-right: 0;}
-.block_benefits p{line-height: 1.71em;}
+.block_benefits p{line-height: 1.71em; margin-bottom: 0;}
 
-.work  ul{
+.work  .work_wrap{
    padding: 0;
    margin: 50px 0 90px;
+   display: flex;
+   justify-content: space-between;
 }
 .block_work{
-   display: inline-block;
+   width: 370px;
 }
 .block_work:nth-child(even){
    margin: 0 25px;
@@ -153,22 +156,25 @@ button:focus{
 }
 .command .wrapper{
    margin: 50px auto 0;
+   display: flex;
+   justify-content: space-between;
 }
 .command .wrapper li{
    margin-right: 25px;
-   display: inline-block;
    text-align: center;
-   padding-bottom: 30px;
    background: var(--color-text-white);
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
 }
 .command .wrapper li:last-child{margin-right: 0;}
+.command .command_inf{
+   padding: 30px 0;
+}
 .command .text_h3{
    font-weight: 500;
    font-size: 16px;
    line-height: 1.1875em;
-   margin: 30px auto 10px;
+   margin-bottom: 10px;
 }
 .command p{
    font-size: 16px;
@@ -189,6 +195,7 @@ button:focus{
    color: rgba(255, 255, 255, 0.6);
    margin-top: 9px;
 }
+.footer address a:first-child{margin-top: 0;}
 .foot_logo{margin: 0 0 20px; }
 address{font-style: normal;}
 .footer a{
@@ -219,14 +226,18 @@ address{font-style: normal;}
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio .filter{
-   display: block;
-   text-align: center;
+   display: flex;
+   justify-content: center;
 }
 .portfolio .filter li{margin-right: 8px;}
 .portfolio .filter li:last-child{margin-right: 0;}
+.portfolio .wrapper{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
 .portfolio .block{
    background: var(--color-text-white);
-   display: inline-block;
    margin-right: 22px;
    margin-top: 22px;
    box-sizing: border-box;
