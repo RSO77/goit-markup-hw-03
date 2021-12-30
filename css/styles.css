@@ -61,9 +61,7 @@ header{
 .head_wrapp{
    display: flex;
    justify-content: space-between;
-}
-.header_block:last-child{
-   margin-top: 8px;
+   align-items: center;
 }
 .header_block a,
 .header_block .menu_item{
@@ -126,7 +124,7 @@ button:focus{
    margin: 30px auto 0;
 }
 
-.benefits{margin: 94px 0;}
+.benefits{padding: 94px 0;}
 .benefits .container{display: block;}
 .block_benefits{
    width: 270px;
@@ -137,9 +135,10 @@ button:focus{
 .block_benefits:last-child{margin-right: 0;}
 .block_benefits p{line-height: 1.71em; margin-bottom: 0;}
 
+.work{padding-bottom: 94px;}
 .work  .work_wrap{
    padding: 0;
-   margin: 50px 0 90px;
+   margin: 50px 0 0;
    display: flex;
    justify-content: space-between;
 }
@@ -235,6 +234,7 @@ address{font-style: normal;}
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   margin-top: 25px;
 }
 .portfolio .block{
    background: var(--color-text-white);
