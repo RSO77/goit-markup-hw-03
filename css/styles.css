@@ -18,7 +18,7 @@ body{
    padding: 0;
 }
 .container{
-   max-width: 1200px;
+   width: 1200px;
    margin: 0 auto;
    padding: 0 15px;
 }
@@ -234,7 +234,7 @@ address{font-style: normal;}
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   margin-top: 25px;
+   margin-top: 28px;
 }
 .portfolio .block{
    background: var(--color-text-white);
