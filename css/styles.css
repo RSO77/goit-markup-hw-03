@@ -256,7 +256,7 @@ address{font-style: normal;}
 }
 .portfolio .block p{
    color: var(--color-text);
-   margin: 0;
+   margin: 4px 0 0;
    font-size: 16px;
    line-height: 2.25em;
 }
